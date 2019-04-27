@@ -1,3 +1,27 @@
+var Sequelize = require("sequelize");
+
+var sequelize = new Sequelize("sequelize_chirpy1", "root", "", {
+  host: "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  dialect: "mysql",
+  pool: {
+    max: 5,
+    min: 0,
+    idle: 10000
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
 var mysql = require("mysql");
 
 // Set up our connection information
