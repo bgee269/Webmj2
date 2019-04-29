@@ -10,7 +10,8 @@
         <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
-        
+        <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -18,11 +19,12 @@
 <body>
 
     <header>
+            <a class="btn-floating pulse"><i class="material-icons">menu</i></a>
            <!--Main page video-->
             <video autoplay muted loop id="myVideo">
                     <source src="assets/clouds_scrolling.mp4" type="video/mp4">
                   </video>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg green lighten-2 navbar-light">
             <a class="navbar-brand" href="#">C</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -30,7 +32,7 @@
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://curepenn.com/">Cure.com</a>
+                        <a class="nav-link" href="https://curepenn.com/"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.phillymag.com/news/2018/10/23/pennsylvania-medical-marijuana-doctors/">News</a>
@@ -74,7 +76,7 @@
         <div class="row1">
             <div class="col-md-12">
                
-                <img style="float:left" src="assets/1541700115-CURE_full-logo_penn_black.png">
+                <img style="float:left" src="assets/rsz_1rsz_1rsz_logo2-vertical.png">
 
                 <p>
                         
@@ -93,7 +95,7 @@
                         
 
 
-                        -PA Department of Health                      
+                        -PA DOH                     
                 </p>
             </div>
         <br>
@@ -115,11 +117,26 @@
     </div>
 
     
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 <script src="cure.js">
 
 
 </script>
+
+<style>
+
+    
+    p {
+        font-family: 'Algreya','serif'; 
+        color: green;
+        font-weight: 1000;
+        line-height: 55px;
+        font-size: 19px;
+        margin: 0 0 43px 0;
+    };
+    
+
+</style>
 
 </html>

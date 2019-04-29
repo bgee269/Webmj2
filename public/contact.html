@@ -9,13 +9,17 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
         <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-        
+    <div id="id01">Created by Brandon Gee!</div>  
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <nav class="navbar navbar-expand-lg green lighten-2 navbar-light bg-blue">
             <a class="navbar-brand" href="#">C</a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,109 +49,98 @@
                 </div>
             </div>
         </nav>
-        
-        <div class="container1">
-
-    <!-- Button names -->
-        <button button class="button" onclick="myFunction1()">Autism</button>
-        <button button class="button2 "onclick="myFunction2()">Cancer</button>
-        <button button class="button3 "onclick="myFunction3()">Chrons</button>
-        <button button class="button4 "onclick="myFunction4()">Seizures</button>
-        <button button class="button5 "onclick="myFunction5()">Glaucoma</button>
-        <button button class="button6 "onclick="myFunction6()">IBS</button>
-        <button button class="button7 "onclick="myFunction7()">Chronic Pain</button>
-        <button button class="button8 "onclick="myFunction8()">PTSD</button>
-        <button button class="button9 "onclick="myFunction9()">Neuropathy</button>
-        <button button class="button11 "onclick="myFunction11()">Terminal Illness</button>
-        
-        
-        <p id="Autism"></p>
-
-        <p id="Cancer"></p>
-
-        <p id="Chrons"></p>
-
-        <p id="Seizures"></p>
-
-        <p id="Glaucoma"></p>
-
-        <p id="IBS"></p>
-
-        <p id="Chronic Pain"></p>
-
-        <p id="PTSD"></p>
-
-        <p id="Neuropathy"></p>
-
-        <p id="Terminal Illness"></p>
-
-        </div>
-        <!-- Button functions Add an HREF to each element-->
-        
-        <script>
-
-        function myFunction1() {
-          document.getElementById("Autism").innerHTML = "Blue Dream , Green Crack, Sour Diesel, Northern Lights, The Wife, Soothe Tincture, Hope Tincture, Harle-TSU Cartridge, Relax Capsules.  ";
-        }
-
-        function myFunction2() {
-          document.getElementById("Cancer").innerHTML = "ACDC, Harle-tsu, Harlequin, OG Kush, Northern Lights, Sour Blueberry, Bubba Kush, GDP, Super Silver Haze, Flo, Sour Deisel, Blueberry, LA Chocolat, Dream Tincture, Soothe Tincture, SF 10:1 tincture, SF 1:1 tincture, Relax Capsules, GG4 RSO.  ";
-        }
-
-        function myFunction3() {
-          document.getElementById("Chrons").innerHTML = "Bubblegum, Harlequin, ACDC, Harlequin, OG Kush, Jack Herer, Ease Coast Sour Diesel, GDP.";
-        }
-
-        function myFunction4() {
-          document.getElementById("Seizures").innerHTML = "The Wife, Green Crack, 10:1 Tincture, Harle-Tsu, The Wife, Z7.";
-        }
-
-        function myFunction5() {
-          document.getElementById("Glaucoma").innerHTML = "<a href='https://www.leafly.com/indica/blueberry'>Blueberry</a>, Maui Waui, Jack Herer, Sour Grape, Durban Poison, Sour Diesel.";
-        }
-
-        function myFunction6() {
-          document.getElementById("IBS").innerHTML = "Blue Dream, Jack Herer, Harlequin";
-        }
-
-        function myFunction7() {
-          document.getElementById("Chronic Pain").innerHTML = "Afghan, ACDC, Harlequin, Chem de la chem, LA Biker Kush, Long Peak's Blue, Purple Haze, 707 Headband, Bio Jesus, Louie XIII, Blue Dream, Granddaddy Purple, GSC, Great Divide, OG Kush, Extra Strength Pain Cream, Soothe Cream, Soothe Tincture, Dream Tincture, SF 1:1 Tincture";
-        }
-
-        function myFunction8() {
-          document.getElementById("PTSD").innerHTML = "OG Kush, Pineapple Express, Blue Dream, Long Peak's Blue, Purple Haze, Sour Grape, GDP, Double Afghan Chunk, GSC, Harlequin, Northern lights";
-        }
-
-        function myFunction9() {
-          document.getElementById("Neuropathy").innerHTML = "Super Silver Haze, Jack Herer";
-        }
-
-       
-        function myFunction11() {
-          document.getElementById("Terminal Illness").innerHTML = "ACDC, Harlequin, Harle-Tsu, Sour Diesel, Sunset Sherbet, GG4, LA Biker, GSC, Blue Dream, Great Divide, Sour Grape, Chem de la chem, GDP, Tangie, Purple Haze, 9a99, Soothe tincture, Dream Tincture";
-        }
-
-        
 
 
         
-        </script>
+          
+            <div class="column">
+                <div class="card">
+                  <img src="assets/chrons.jpg" alt="Avatar" style="width:100%">
+                  <div class="container"></div>
+                  <h3>Chrons</h3>
+                  <ul>"<a href='https://www.leafly.com/hybrid/bubble-gum'>Bubblegum, <a href='https://www.leafly.com/sativa/harlequin'>Harlequin</a>, <a href='https://www.leafly.com/hybrid/the-wife'>The Wife</a>"</ul>
+                </div>
+              </div>
+
+            <div class="column">
+                <div class="card">
+                  <img src="assets/epilepsy-wordcloud-385x250.png" alt="Avatar" style="width:100%">
+                  <div class="container"></div>
+                  <h3>Seizures</h3>
+                  <ul>"<a href='https://www.leafly.com/hybrid/the-wife'>The Wife</a>, <a href='https://www.leafly.com/sativa/harlequin'>Harlequin</a>, <a href='https://www.leafly.com/brands/myriams-hope'>Hope Tincture</a>"</ul>
+                </div>
+              </div>
+
+              <div class="column">
+                  <div class="card">
+                    <img src="assets/imgonline-com-ua-resize-iZJzHRnjxbwA.jpg" alt="Avatar" style="width:100%">
+                    <div class="container"></div>
+                    <h3>Chronic Pain</h3>
+                    <ul>"<a href='https://www.leafly.com/indica/blueberry'>Blueberry</a>, <a href='https://www.leafly.com/indica/afghani'>Afghan</a>, <a href='https://www.leafly.com/hybrid/acdc'>ACDC</a></ul>
+                  </div>
+                </div>
+    
+                  
+                    <div class="column">
+                        <div class="card">
+                          <img src="assets/glaucoma.jpg" alt="Avatar" style="width:100%">
+                          <div class="container"></div>
+                          <h3>Glaucoma</h3>
+                          <ul>"<a href='https://www.leafly.com/indica/blueberry'>Blueberry</a>, <a href='https://www.leafly.com/sativa/maui-wowie'>Maui-Wowie</a>, <a href='https://www.leafly.com/sativa/jack-herer'>Jack Herer</a></ul>
+                        </div>
+                      </div>
         
-        <br>
+                    <div class="column">
+                        <div class="card">
+                          <img src="assets/canc.jpg" alt="Avatar" style="width:100%">
+                          <div class="container"></div>
+                          <h3>Cancer</h3>
+                          <ul>"<a href='https://www.leafly.com/indica/blueberry'>Blueberry</a>, <a href='https://www.leafly.com/hybrid/acdc'>ACDC</a>, <a href='https://www.leafly.com/sativa/harlequin'>Harlequin</a></ul>
+                        </div>
+                      </div>
+        
+                      <div class="column">
+                          <div class="card">
+                          <img src="assets/autism.jpeg" alt="Avatar" style="width:100%">
+                          <div class="container"></div>
+                            <h3>Autism</h3>
+                            <ul><a href='https://www.leafly.com/hybrid/the-wife'>The Wife</a>, <a href='https://www.leafly.com/hybrid/acdc'>ACDC</a>, <a href='https://www.leafly.com/sativa/harlequin'>Harlequin</a> ,</ul>
+                          </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                              <img src="assets/use-PTSD.jpg" alt="Avatar" style="width:100%">
+                              <div class="container"></div>
+                              <h3>PTSD</h3>
+                              <ul>"<a href='https://www.leafly.com/hybrid/og-kush'>OG Kush</a>, <a href='https://www.leafly.com/hybrid/pineapple-express'>Pinneaple Express</a>, <a href='https://www.leafly.com/hybrid/blue-dream'>Blue Dream</a>"</ul>
+                            </div>
+                          </div>
+                          <div class="column">
+                    <div class="card">
+                      <img src="assets/thumbnail_IMG_7032.jpg" alt="Avatar" style="width:100%">
+                      <div class="container"></div>
+                      <h3>IBS</h3>
+                      <ul>"<a href='https://www.leafly.com/hybrid/blue-dream'>Blue Dream</a>, <a href='https://www.leafly.com/sativa/jack-herer'>Jack Herer</a>, <a href='https://www.leafly.com/sativa/harlequin'>Harlequin</a></ul>
+                    </div>
+                  </div>
+            
+                    
+
+        
 
         <br>
 
         <br>
-
-    <div class="container2">
+ <!--Submit to MYSQL-->
+    <div class="container3">
 
       <div class="row">
         <div class="col-sm-4 col-sm-offset-2">
           <p class="cool-font">Ailment</p>
-          <input class="form-control" type="text" id="author" placeholder="What do you suffer from?">
+          <input class="form-control" type="text" id="author" placeholder="">
           <br>
           <p class="cool-font">Item</p>
-          <textarea class="form-control" rows="3" id="chirp-box" placeholder="Enter Item Here!"></textarea>
+          <textarea class="form-control" rows="3" id="chirp-box" placeholder=""></textarea>
           <button id="wish-submit" class="btn btn-lg pull-right">Submit!</button>
         </div>
       </div>
@@ -155,16 +148,16 @@
 
 <br>
 
-      <div class="row2">
+      <div class="row5">
         <div class="col-sm-2 col-sm-offset-4">
-            <h2>Works for me</h2>
+            <h2></h2>
           <hr>
           <div id="chirp-area"></div>
         </div>
       </div>
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <style>
       body  {
         background: url(https://ultrahydrophobiccoating.com/wp-content/uploads/2016/08/img4-wtoutiao-com111.gif) no-repeat center center fixed; 
@@ -210,24 +203,64 @@ p {
 }
 
 h2 {
-  font-family: Shrikhand, cursive;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
   color: #4caf50;
 }
 
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: white;
+}
 
-.container1 {
-  margin: auto;
-  width: 90%;
-  border: 3px solid #73AD21;
-  padding: 10px;
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  font-family: cursive;
+  background-color: transparent;
 }
 
 
-
-
       </style>
-
+<script type="text/babel">
+  const name = 'Brandon Gee';
+  
+  ReactDOM.render(
+    <h1>Created by {name}</h1>,
+    document.getElementById('id01'));
+  </script>
 </body>
 
 
