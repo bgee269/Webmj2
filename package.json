@@ -9,7 +9,7 @@
     "materialize": "^1.0.0",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.7.6"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {},
   "scripts": {
